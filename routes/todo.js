@@ -1,6 +1,6 @@
-const { Router } = require("express");
-let express = require("express")
-let router = express.Router(),
+// let { Router } = require("express"),
+let express = require("express"),
+router = express.Router(),
 controller = require("../controllers/todo");
 
 
