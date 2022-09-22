@@ -3,7 +3,7 @@ let dbConnect = mysql.createConnection({
     user: "root",
     host: "localhost",
     password: "Pwaskop@121",
-    database: "TodoApp"
+    database: "todoApp"
 
 })
 
