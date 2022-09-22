@@ -7,7 +7,7 @@ controller = require("../controllers/todo");
 // restul routers
 router.route("/todo")
     .get(controller.getAllTodos)
-    .post();
+    .post(controller.createTodo);
 
         
 router.route("/:todoId")
